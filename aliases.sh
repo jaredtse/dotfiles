@@ -61,8 +61,8 @@ function each_ruby {
   done
 }
 function gfgrep {
-  grep "$1" */Gemfile.lock
+  grep "$1" */*/Gemfile.lock
 }
 function gsgrep {
-  grep "$1" */*.gemspec
+  grep "$1" */*/*.gemspec
 }
